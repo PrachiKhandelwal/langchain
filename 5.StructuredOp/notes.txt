@@ -1,0 +1,5 @@
+1) To get structured data from models that support it, simply use with_structured_output.
+2) We can define the structure using the following methods:
+-> Typed Dictionary => only for representational purpose, not for data validation
+-> Pydantic => provides data validation
+-> JSON Schema
