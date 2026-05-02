@@ -16,11 +16,6 @@ summary_length = st.selectbox('Select length',['Short (1-2 paragraphs)','Long (5
 
 template = load_prompt('template.json')
 
-prompt = template.invoke({
-    'paper_input':research_paper,
-    'style_input':summary_style,
-    'length_input':summary_length
-})
 
 if st.button('Summarize'):
     # print(prompt)
@@ -30,9 +25,17 @@ if st.button('Summarize'):
         task="text-generation",
         max_new_tokens=800
         )
-
+        
         model = ChatHuggingFace(llm=llm)
-        response = model.invoke(prompt)
+        
+        chain = template | model
+        
+        response = chain.invoke({
+        'paper_input':research_paper,
+        'style_input':summary_style,
+        'length_input':summary_length
+        })
+        
         print('model response: ',response.content)
         print('------------------------------------------------')
         st.write(response.content)
