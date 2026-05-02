@@ -9,3 +9,5 @@ langchain-huggingface
 numpy
 scikit-learn
 streamlit
+pydantic
+pydantic[email]

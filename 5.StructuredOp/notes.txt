@@ -3,3 +3,5 @@
 -> Typed Dictionary => only for representational purpose, not for data validation
 -> Pydantic => provides data validation
 -> JSON Schema
+
+3) with_structured_output can take an optional argument called method. Possible values for method can be function_calling, json_mode, json_schema JSON mode. Function calling is generally most reliable for production.
