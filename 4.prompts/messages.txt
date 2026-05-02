@@ -1,0 +1,3 @@
+('ai','how can I help you?')
+('human', 'I want to check refund status of my order, having order id #3125.')
+('ai','Sure, your refund for order id #3125 is initiated and should reflect in your account in 5-7 working days.')
