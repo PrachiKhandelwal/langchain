@@ -5,3 +5,7 @@
 -> JSON Schema
 
 3) with_structured_output can take an optional argument called method. Possible values for method can be function_calling, json_mode, json_schema JSON mode. Function calling is generally most reliable for production.
+
+4) Some of the output parsers are string output parser, json output parser, pydantic output parser
+
+5) DOUBTS: erro, errorr2 files, do we use  outputfixingparser? What do we do if pydantic does not return correct o/p as error or error2.oy files, do pydantic always guarantee correct structure with closed source models like gemini?
