@@ -8,4 +8,16 @@
 
 4) Some of the output parsers are string output parser, json output parser, pydantic output parser
 
-5) DOUBTS: erro, errorr2 files, do we use  outputfixingparser? What do we do if pydantic does not return correct o/p as error or error2.oy files, do pydantic always guarantee correct structure with closed source models like gemini?
+5) DOUBTS: 
+erro, 
+errorr2 files, 
+do we use  outputfixingparser? 
+What do we do if pydantic does not return correct o/p as error or error2.oy files,
+do pydantic always guarantee correct structure with closed source models like gemini? where to find 
+code example for things like runnablebranch, 
+read about lambda function, where to read about chains available, 
+vid 10, 24.30 mins, 
+how do we know textloader  exists ? I see its compatibility with only node.js in documentation, 
+how to select which vector store to use from this list https://docs.langchain.com/oss/python/integrations/vectorstores#google-gemini? 
+where is retriever documentation
+why pdf_reader code not working with latest embedding model like "gemini-embedding-2-preview"
