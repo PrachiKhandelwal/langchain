@@ -1,0 +1,3 @@
+Types of runnables: 
+1) Task Specific Runnables; e.g. ChatGoogleGenerativeAI, 
+2) Runnable primitives: RunnableSeqquence, RunnableParallel
